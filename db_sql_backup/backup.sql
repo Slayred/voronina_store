@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- База данных: `voronina_store`
+-- База данных: `voronina_store` lajf
 --
 CREATE DATABASE IF NOT EXISTS `voronina_store` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `voronina_store`;
