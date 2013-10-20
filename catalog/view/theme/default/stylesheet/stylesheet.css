@@ -94,7 +94,7 @@ label {
 }
 
 #header {
-	height: 90px;
+	height: 135px;
 	margin-bottom: 7px;
 	padding-bottom: 4px;
 	position: relative;
@@ -109,8 +109,8 @@ label {
 	position: absolute;
 	top: 59px;
 	left: 360px;
-	width: 108px;
-	color: #999;
+	width: 115px;
+	color: #fff;
 	line-height: 17px;
 }
 #language img {
@@ -123,7 +123,7 @@ label {
 	position: absolute;
 	top: 56px;
 	left: 500px;
-	color: #999;
+	color: #fff;
 	line-height: 17px;
 }
 #currency a {
@@ -1648,8 +1648,8 @@ height:30px;
 	overflow: auto;
 	min-height: 100px;
 	padding: 20px;
-	border-top: 1px solid #585858;
-	border-bottom: 1px solid #585858;
+	border-top: 2px solid #585858;
+	border-bottom: 2px solid #585858;
 }
 #footer h3 {
 	color: #fff;
