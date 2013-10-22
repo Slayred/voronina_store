@@ -4,7 +4,7 @@ html {
 	padding: 0;
 }
 body {
-	background: url(../image/body_overlay_navigator.png) top center no-repeat, url(../image/background-brown.png);
+	background: url(../image/body_overlay_navigator.png) top center no-repeat, url(../image/background-brown8.png) scroll left top #441500;
 	color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
@@ -33,7 +33,7 @@ p {
 	margin-bottom: 20px;
 }
 a, a:visited, a b {
-	color: #38B0E3;
+	color: #FFFFFF;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -154,7 +154,7 @@ label {
 	height: 30px;
 	padding-left: 14px;
 	padding-right: 14px;
-	background: url('../image/cart.png') 0% 50% no-repeat;
+	background: url('../image/cart4.png') 5% 60% no-repeat;
 	position: relative;
 	z-index: 1;
 }
@@ -187,14 +187,14 @@ label {
 	border-left: 1px solid #EEEEEE;
 	border-right: 1px solid #EEEEEE;
 	border-bottom: 1px solid #EEEEEE;
-	-webkit-border-radius: 0px 0px 7px 7px;
-	-moz-border-radius: 0px 0px 7px 7px;
-	-khtml-border-radius: 0px 0px 7px 7px;
-	border-radius: 0px 0px 7px 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	border-radius: 7px;
 	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
 	-moz-box-shadow: 0px 2px 2px #DDDDDD;
 	box-shadow: 0px 2px 2px #DDDDDD;
-	background: #FFF;
+	background: #585858;
 }
 #header #cart.active .heading {
 font-weight:700;	
@@ -729,7 +729,7 @@ a.button:hover, input.button:hover {
 	border: 1px solid #E7E7E7;
 }
 .box-product .name a {
-	color: #38B0E3;
+	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -1027,7 +1027,7 @@ height:30px;
 	border: 1px solid #E7E7E7;
 }
 .product-grid .name a {
-	color: #38B0E3;
+	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -1122,7 +1122,7 @@ height:30px;
 	color: #fff;
 }
 .product-info .description span {
-	color: #38B0E3;
+	color: #FFFFFF;
 }
 .product-info .description a {
 	color: #fff;
@@ -1215,7 +1215,7 @@ height:30px;
 	line-height: 20px;
 }
 .product-info .review > div > span {
-	color: #38B0E3;
+	color: #FFFFFF;
 }
 .product-info .review .share {
 	overflow: auto;
