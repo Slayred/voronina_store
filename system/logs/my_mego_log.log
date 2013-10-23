@@ -1,1 +1,3 @@
 2013-10-19 15:19:25 - PHP Notice:  Undefined variable: filter_name in C:\xampp\htdocs\voronina-store\catalog\view\theme\unibacr\template\common\header.tpl on line 68
+2013-10-23 19:33:14 - PHP Notice:  unserialize(): Error at offset 11679 of 52127 bytes in C:\xampp\htdocs\voronina-store\system\library\cache.php on line 11
+2013-10-23 19:33:14 - PHP Notice:  unserialize(): Error at offset 289 of 1479 bytes in C:\xampp\htdocs\voronina-store\system\library\cache.php on line 11

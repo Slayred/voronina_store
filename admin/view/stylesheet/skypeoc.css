@@ -1,0 +1,33 @@
+#tab-settings table.form {
+    width: 49%;
+    float: left;
+    margin: 5px;
+}
+#tab-settings table.list {
+    width: 49%;
+    float: right;
+    margin: 5px;
+}
+#tab-help table.list td {
+    border-bottom-width: 10px;
+    /*width: 40%;*/
+}
+#tab-callback table.form input {
+    width: 250px;
+}
+#tab-callback table.form textarea {
+    width: 500px;
+    height: 120px;
+}
+.custom_gen {
+    margin-top: 15px;
+    /*display: none;*/
+}
+.custom_gen textarea {
+    width: 100%;
+    margin-left: 2px;
+    height: 100px;
+}
+.custom_gen input {
+    width: 200px;
+}

@@ -1,0 +1,10 @@
+.skypeoc_link img {
+    margin: 0 !important;
+    vertical-align: 0 !important;
+}
+.skypeoc_link p {
+    margin-bottom: 0;
+}
+.skypeoc_cap {
+    display: none;
+}

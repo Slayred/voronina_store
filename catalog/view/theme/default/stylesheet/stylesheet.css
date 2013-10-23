@@ -33,7 +33,7 @@ p {
 	margin-bottom: 20px;
 }
 a, a:visited, a b {
-	color: #38B0E3;
+	color: #FFFFFF;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -729,7 +729,7 @@ a.button:hover, input.button:hover {
 	border: 1px solid #E7E7E7;
 }
 .box-product .name a {
-	color: #38B0E3;
+	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -1027,7 +1027,7 @@ height:30px;
 	border: 1px solid #E7E7E7;
 }
 .product-grid .name a {
-	color: #38B0E3;
+	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -1122,7 +1122,7 @@ height:30px;
 	color: #fff;
 }
 .product-info .description span {
-	color: #38B0E3;
+	color: #FFFFFF;
 }
 .product-info .description a {
 	color: #fff;
@@ -1215,7 +1215,7 @@ height:30px;
 	line-height: 20px;
 }
 .product-info .review > div > span {
-	color: #38B0E3;
+	color: #FFFFFF;
 }
 .product-info .review .share {
 	overflow: auto;
