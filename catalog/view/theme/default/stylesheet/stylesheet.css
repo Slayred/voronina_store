@@ -105,7 +105,7 @@ label {
 }
 #header #logo {
 	position: absolute;
-	top: 55px;
+	top: 6px;
 	left: 15px;
 }
 #language {
@@ -421,7 +421,7 @@ color:#fff;
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
 	margin-bottom: 15px;
-	color: #555555;
+	color: #000;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-khtml-border-radius: 5px 5px 5px 5px;
@@ -434,6 +434,9 @@ color:#fff;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-khtml-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
+}
+.success a {
+	color: #000;
 }
 .warning {
 	background: #FFD1D1 url('../image/warning.png') 10px center no-repeat;
@@ -700,16 +703,17 @@ a.button:hover, input.button:hover {
 }
 /* box products */
 .box-product {
-	width: 100%;
+	width: 100%;	
 	overflow: auto;
 }
 .box-product > div {
 	width: 168px;
+	height: 260px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 10px;
 	margin-left: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #column-left   .box-product > div , #column-right .box-product > div{
@@ -752,6 +756,11 @@ a.button:hover, input.button:hover {
 .box-product .rating {
 	display: block;
 	margin-bottom: 4px;
+}
+.box-product .cart {
+	display: block;
+	position: relative;
+	top: 5px;
 }
 /* box category */
 ul.box-category, ul.box-category ul {
