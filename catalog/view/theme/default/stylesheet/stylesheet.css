@@ -97,7 +97,7 @@ label {
 }
 
 #header {
-	height: 120px;
+	height: 110px;
 	margin-bottom: 7px;
 	padding-bottom: 4px;
 	position: relative;
@@ -105,13 +105,13 @@ label {
 }
 #header #logo {
 	position: absolute;
-	top: 6px;
+	top: 27px;
 	left: 15px;
 }
 #language {
 	position: absolute;
 	top: 59px;
-	left: 360px;
+	left: 300px;
 	width: 115px;
 	color: #fff;
 	line-height: 17px;
@@ -122,10 +122,10 @@ label {
 	padding-left:5px;
 }
 #currency {
-	width: 120px;
+	width: 205px;
 	position: absolute;
 	top: 56px;
-	left: 500px;
+	left: 435px;
 	color: #fff;
 	line-height: 17px;
 }
