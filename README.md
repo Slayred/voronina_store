@@ -1,1 +1,1 @@
-testing php Storm
+Тест phpStorm пройден успешно! УРА!!!
