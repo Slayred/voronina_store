@@ -7,8 +7,8 @@ body {
 	background: url(../image/body_overlay_navigator.png) top center no-repeat, url(../image/background-brown8.png) scroll left top #441500;
 	color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 body, td, th, input, textarea, select, a {
 	font-size: 12px;
@@ -16,7 +16,7 @@ body, td, th, input, textarea, select, a {
 h1, .welcome {
 	color: #636E75;
 	font: Verdana;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 20px;
 	font-size: 32px;
 	font-weight: normal;
@@ -25,11 +25,11 @@ h1, .welcome {
 h2 {
 	color: #000000;
 	font-size: 16px;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 5px;
 }
 p {
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 20px;
 }
 a, a:visited, a b {
@@ -52,8 +52,8 @@ input[type='text'], input[type='password'], textarea {
 	background: #F8F8F8;
 	border: 1px solid #CCCCCC;
 	padding: 3px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 0;
 }
 select {
 	background: #F8F8F8;
@@ -144,7 +144,7 @@ label {
 #header #cart {
 	position: absolute;
 	top: 5px;
-	right: 0px;
+	right: 0;
 	z-index: 9;
 	min-width: 300px;
 }
@@ -162,7 +162,7 @@ label {
 	color: #333333;
 	font-size: 15px;
 	font-weight: bold;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 3px;
 }
 #header #cart .heading a {
@@ -183,17 +183,14 @@ label {
 	top: 2px;
 	padding: 8px;
 	min-height: 150px;
-	border-top: 1px solid #EEEEEE;
-	border-left: 1px solid #EEEEEE;
-	border-right: 1px solid #EEEEEE;
-	border-bottom: 1px solid #EEEEEE;
+	border: 1px solid #EEEEEE;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	-khtml-border-radius: 7px;
 	border-radius: 7px;
-	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
-	-moz-box-shadow: 0px 2px 2px #DDDDDD;
-	box-shadow: 0px 2px 2px #DDDDDD;
+	-webkit-box-shadow: 0 2px 2px #DDDDDD;
+	-moz-box-shadow: 0 2px 2px #DDDDDD;
+	box-shadow: 0 2px 2px #DDDDDD;
 	background: #585858;
 }
 #header #cart.active .heading {
@@ -258,13 +255,13 @@ font-weight:700;
 #header #search {
 	position: absolute;
 	top: 55px;
-	right: 0px;
+	right: 0;
 	width: 298px;
 	z-index: 7;
 }
 #header .button-search {
 	position: absolute;
-	left: 0px;
+	left: 0;
 	background: url('../image/button-search.png') center center no-repeat;
 	width: 28px;
 	height: 24px;
@@ -277,13 +274,13 @@ font-weight:700;
 	width: 262px;
 	height: 21px;
 	border: 1px solid #CCCCCC;
-	-webkit-border-radius: 3px 3px 3px 3px;
-	-moz-border-radius: 3px 3px 3px 3px;
-	-khtml-border-radius: 3px 3px 3px 3px;
-	border-radius: 3px 3px 3px 3px;
-	-webkit-box-shadow: 0px 2px 0px #000;
-	-moz-box-shadow: 0px 2px 0px #000;
-	box-shadow: 0px 2px 0px #000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 0 #000;
+	-moz-box-shadow: 0 2px 0 #000;
+	box-shadow: 0 2px 0 #000;
 }
 #header #welcome {
 	position: absolute;
@@ -308,7 +305,7 @@ font-weight:700;
 #header .links a {
 	float: left;
 	display: block;
-	padding: 0px 0px 0px 7px;
+	padding: 0 0 0 7px;
 	color: #fff;
 	text-decoration: underline;
 	font-size: 12px;
@@ -325,14 +322,14 @@ font-weight:700;
 	background: #585858;	
 	height: 37px;
 	margin-bottom: 15px;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-khtml-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
-	-webkit-box-shadow: 0px 2px 2px #100;
-	-moz-box-shadow: 0px 2px 2px #100;
-	box-shadow: 0px 2px 2px #100;
-	padding: 0px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 2px 2px #100;
+	-moz-box-shadow: 0 2px 2px #100;
+	box-shadow: 0 2px 2px #100;
+	padding: 0 5px;
 }
 #menu ul {
 	list-style: none;
@@ -343,7 +340,7 @@ font-weight:700;
 	position: relative;
 	float: left;
 	z-index: 20;
-	padding: 6px 5px 5px 0px;
+	padding: 6px 5px 5px 0;
 }
 #menu > ul > li:hover {
 }
@@ -372,10 +369,10 @@ font-weight:700;
 	z-index: 5;
 	padding: 5px;
 	border: 1px solid #000000;
-	-webkit-border-radius: 0px 0px 5px 5px;
-	-moz-border-radius: 0px 0px 5px 5px;
-	-khtml-border-radius: 0px 0px 5px 5px;
-	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-khtml-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
 	background: url('../image/menu.png');
 }
 #menu > ul > li:hover > div {
@@ -403,10 +400,10 @@ font-weight:700;
 }
 .breadcrumb {
 	background: #585858;	
-	-webkit-border-radius: 7px 7px 0px 0px;
-	-moz-border-radius: 7px 7px 0px 0px;
-	-khtml-border-radius: 7px 7px 0px 0px;
-	border-radius: 7px 7px 0px 0px;
+	-webkit-border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	-khtml-border-radius: 7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
 	color: #CCCCCC;
 	height: 30px;
 	line-height: 30px;
@@ -422,18 +419,18 @@ color:#fff;
 	padding: 10px 10px 10px 33px;
 	margin-bottom: 15px;
 	color: #000;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-khtml-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
 }
 .success {
 	background: #EAF7D9 url('../image/success.png') 10px center no-repeat;
 	border: 1px solid #BBDF8D;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-khtml-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
 }
 .success a {
 	color: #000;
@@ -441,18 +438,18 @@ color:#fff;
 .warning {
 	background: #FFD1D1 url('../image/warning.png') 10px center no-repeat;
 	border: 1px solid #F8ACAC;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-khtml-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
 }
 .attention {
 	background: #FFF5CC url('../image/attention.png') 10px center no-repeat;
 	border: 1px solid #F2DD8C;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-khtml-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
 }
 .success .close, .warning .close, .attention .close, .information .close {
 	float: right;
@@ -505,7 +502,7 @@ table.list td {
 }
 table.list thead td {
 	background-color: #EFEFEF;
-	padding: 0px 5px;
+	padding: 0 5px;
 }
 table.list thead td a, .list thead td {
 	text-decoration: none;
@@ -513,7 +510,7 @@ table.list thead td a, .list thead td {
 	font-weight: bold;
 }
 table.list tbody td {
-	padding: 0px 5px;
+	padding: 0 5px;
 }
 table.list .left {
 	text-align: left;
@@ -586,13 +583,13 @@ a.button, input.button {
 	font-size: 12px;
 	font-weight: bold;
 	background: url('../image/button-grey.png') repeat-x;
-	-webkit-border-radius: 3px 3px 3px 3px;
-	-moz-border-radius: 3px 3px 3px 3px;
-	-khtml-border-radius: 3px 3px 3px 3px;
-	border-radius: 3px 3px 3px 3px;
-	-webkit-box-shadow: 0px 2px 2px #000;
-	-moz-box-shadow: 0px 2px 2px #000;
-	box-shadow: 0px 2px 2px #000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 2px #000;
+	-moz-box-shadow: 0 2px 2px #000;
+	box-shadow: 0 2px 2px #000;
 }
 a.button {
 	display: inline-block;
@@ -603,10 +600,10 @@ input.button {
 	margin: 0;
 	border: 0;
 	height: 24px;
-	padding: 0px 22px 0px 22px;
+	padding: 0 22px 0 22px;
 }
 a.button:hover, input.button:hover {
-	background-position: 0px -24px;
+	background-position: 0 -24px;
 }
 .buttons {		
 	overflow: auto;
@@ -675,10 +672,10 @@ a.button:hover, input.button:hover {
 	text-align: center;
 }
 .box .box-heading {
-	-webkit-border-radius: 7px 7px 0px 0px;
-	-moz-border-radius: 7px 7px 0px 0px;
-	-khtml-border-radius: 7px 7px 0px 0px;
-	border-radius: 7px 7px 0px 0px;
+	-webkit-border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	-khtml-border-radius: 7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
 	border: 1px solid #585858;
 	background: #585858;
 	padding: 8px 10px 7px 10px;
@@ -689,10 +686,10 @@ a.button:hover, input.button:hover {
 	color: #fff;
 }
 .box .box-content {	
-	-webkit-border-radius: 0px 0px 7px 7px;
-	-moz-border-radius: 0px 0px 7px 7px;
-	-khtml-border-radius: 0px 0px 7px 7px;
-	border-radius: 0px 0px 7px 7px;
+	-webkit-border-radius: 0 0 7px 7px;
+	-moz-border-radius: 0 0 7px 7px;
+	-khtml-border-radius: 0 0 7px 7px;
+	border-radius: 0 0 7px 7px;
 	border-left: 2px solid #585858;
 	border-right: 2px solid #585858;
 	border-bottom: 2px solid #585858;
@@ -718,7 +715,7 @@ a.button:hover, input.button:hover {
 
 #column-left   .box-product > div , #column-right .box-product > div{
 	width: 155px;
-	margin-right: 0px;
+	margin-right: 0;
 }
 
 #column-left + #column-right + #content .box-product > div {
@@ -726,7 +723,7 @@ a.button:hover, input.button:hover {
 }
 .box-product .image {
 	display: block;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 .box-product .image img {
 	padding: 3px;
@@ -769,10 +766,10 @@ ul.box-category, ul.box-category ul {
 	padding: 0;
 }
 ul.box-category > li:first-child {
-	padding: 0px 8px 8px 0px;
+	padding: 0 8px 8px 0;
 }
 ul.box-category > li {
-	padding: 8px 8px 8px 0px;
+	padding: 8px 8px 8px 0;
 }
 ul.box-category > li + li {
 	border-top: 1px solid #585858;
@@ -791,7 +788,7 @@ ul.box-category > li a.active + ul {
 	display: block;
 }
 ul.box-category > li ul > li {
-	padding: 5px 5px 0px 10px;
+	padding: 5px 5px 0 10px;
 }
 ul.box-category > li ul > li > a {
 	text-decoration: none;
@@ -848,7 +845,7 @@ ul.box-filter > li ul {
 	margin-bottom: 20px;
 }
 .category-list ul {
-	padding-left:0px;
+	padding-left:0;
 }
 .category-list ul li {
 	border: 1px solid #eee;
@@ -1029,7 +1026,7 @@ height:30px;
 }
 .product-grid .image {
 	display: block;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 .product-grid .image img {
 	padding: 3px;
@@ -1143,7 +1140,7 @@ height:30px;
 .product-info .price {
 	overflow: auto;
 	border-bottom: 1px solid #E7E7E7;
-	padding: 0px 5px 10px 5px;
+	padding: 0 5px 10px 5px;
 	margin-bottom: 10px;
 	font-size: 15px;
 	font-weight: bold;
@@ -1172,7 +1169,7 @@ height:30px;
 }
 .product-info .options {
 	border-bottom: 1px solid #E7E7E7;
-	padding: 0px 5px 10px 5px;
+	padding: 0 5px 10px 5px;
 	margin-bottom: 10px;
 	color: #fff;
 }
@@ -1195,7 +1192,7 @@ height:30px;
 }
 .product-info .cart {
 	border-bottom: 1px solid #E7E7E7;
-	padding: 0px 5px 10px 5px;
+	padding: 0 5px 10px 5px;
 	margin-bottom: 20px;
 	color: #fff;
 }
@@ -1400,7 +1397,7 @@ height:30px;
 	margin-bottom: 2px;
 }
 .order-list .order-content {
-	padding: 10px 0px;
+	padding: 10px 0;
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 20px;
@@ -1434,7 +1431,7 @@ height:30px;
 	margin-bottom: 2px;
 }
 .return-list .return-content {
-	padding: 10px 0px;
+	padding: 10px 0;
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 20px;
@@ -1502,7 +1499,7 @@ height:30px;
 	margin-bottom: 2px;
 }
 .download-list .download-content {
-	padding: 10px 0px;
+	padding: 10px 0;
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 20px;
@@ -1601,7 +1598,7 @@ height:30px;
 	text-decoration: none;
 }
 .checkout-content {
-	padding: 0px 0px 15px 0px;
+	padding: 0 0 15px 0;
 	display: none;
 	overflow: auto;
 }
@@ -1688,7 +1685,7 @@ height:30px;
 #footer h3 {
 	color: #fff;
 	font-size: 14px;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 8px;
 }
 #footer .column {
@@ -1697,7 +1694,7 @@ height:30px;
 	min-height: 100px;
 }
 #footer .column ul {
-	margin-top: 0px;
+	margin-top: 0;
 	margin-left: 8px;
 	padding-left: 12px;
 }
