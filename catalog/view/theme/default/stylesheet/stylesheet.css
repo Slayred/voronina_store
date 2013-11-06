@@ -4,7 +4,7 @@ html {
 	padding: 0;
 }
 body {
-	background: url(../image/body_overlay_navigator.png) top center no-repeat, url(../image/background-brown8.png) scroll left top #441500;
+	background: url(../image/sheep-3.png), url(../image/background-brown8.png) scroll left top #441500;
 	color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
@@ -68,7 +68,11 @@ label {
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 5px;
+	padding-right: 5px;
 	text-align: left;
+	background: url(../image/background-brown8.png) scroll left top #441500;
+	border: 1px solid #333;
 }
 #column-left {
 	float: left;
@@ -79,6 +83,7 @@ label {
 	width: 180px;
 }
 #content {
+	background: url(../image/background-brown8.png) scroll left top #441500;
 	min-height: 400px;
 	margin-bottom: 25px;	
 }
@@ -321,7 +326,7 @@ font-weight:700;
 #menu {
 	background: #585858;	
 	height: 37px;
-	margin-bottom: 15px;
+	margin-bottom: 15px;	
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-khtml-border-radius: 5px;
@@ -694,12 +699,13 @@ a.button:hover, input.button:hover {
 	border-right: 2px solid #585858;
 	border-bottom: 2px solid #585858;
 	padding: 10px;
+	background: url(../image/background-brown8.png) scroll left top #441500;
 }
 .box-content ul li a {
 	color: #fff;
 }
 /* box products */
-.box-product {
+.box-product {	
 	width: 100%;	
 	overflow: auto;
 }
@@ -1681,6 +1687,7 @@ height:30px;
 	padding: 20px;
 	border-top: 2px solid #585858;
 	border-bottom: 2px solid #585858;
+	background: url(../image/background-brown8.png) scroll left top #441500;
 }
 #footer h3 {
 	color: #fff;
