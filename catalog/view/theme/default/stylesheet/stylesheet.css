@@ -15,7 +15,7 @@ body, td, th, input, textarea, select, a {
 	font-size: 12px;
 }
 h1, .welcome {
-	color: #636E75;
+	color: #FFF;
 	font: Verdana;
 	margin-top: 0;
 	margin-bottom: 20px;
@@ -1729,4 +1729,12 @@ height:30px;
 }
 .banner div img {
 	margin-bottom: 20px;
+}
+.welcome {
+    letter-spacing: -1px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #bbb;
+    text-shadow: 0 3px 8px #2a2a2a;
+    margin-bottom: 10px;
 }
